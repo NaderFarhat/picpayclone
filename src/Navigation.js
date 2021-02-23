@@ -3,10 +3,10 @@ import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { AntDesign, Ionicons, Feather, Entypo } from "@expo/vector-icons";
 import PayButton from "./components/PayButton/index";
 
-import HomeScreen from "./screens/Home/index";
-import WalletScreen from "./screens/Wallet/index";
-import PayScreen from "./screens/Pay/index";
-import Notifications from "./screens/Notifications/index";
+import HomeScreen from "./screens/Home/Home";
+import WalletScreen from "./screens/Wallet/Wallet";
+import PayScreen from "./screens/Pay/Pay";
+import Notifications from "./screens/Notifications/Notifications";
 import Store from "./screens/Store/Store";
 
 const Tab = createBottomTabNavigator();

@@ -332,15 +332,4 @@ const styles = StyleSheet.create({
     paddingRight: 10,
     paddingLeft: 10,
   },
-  box: {
-    height: 300,
-    backgroundColor: "#DDD",
-    margin: 7,
-    borderRadius: 5,
-  },
-  title: {
-    color: "#fff",
-    // fontSize: 18,
-    fontWeight: "bold",
-  },
 });
